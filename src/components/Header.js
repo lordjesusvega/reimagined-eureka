@@ -16,7 +16,7 @@ class Header extends Component {
          <div className="column">
           <div className="card">
             <h1 className="title">Vega Digital Media Agency</h1>
-            <h2>We help you make waves.</h2>
+            <h2>Lets Make Waves.</h2>
           </div>
         </div>
         </div>
