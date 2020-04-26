@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.video {
+  min-width: 10vw;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.column{
+  flex: 50%;
+}
+
+.row {
+  display: flex;
+  background-color: #F9F9F3;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+  justify-content: center;
+  color: #F9F9F3;
+  height: 100%;
+  background: #333;
+}
+
+.waves-japanese {
+  z-index: 1;
+  padding-bottom: 10%;
+  position: relative;
+}
