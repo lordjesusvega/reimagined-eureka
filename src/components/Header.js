@@ -12,7 +12,7 @@ class Header extends Component {
           width = '100%'
           height = '100%'
           loop playing />
-          // <h1 className="waves-japanese" data-hover="Let's make waves.">波を作ろう</h1>
+          <h1 className="waves-japanese" data-hover="Let's make waves.">波を作ろう</h1>
         </div>
 
          <div className="column">
