@@ -26,7 +26,7 @@ class Header extends Component {
           </Col>
 
           <Col className="center">
-            <h1 className="title">Vega Digital Media Agency</h1>
+            <h1 className="title font-weight-bolder	">Vega Digital Media Agency</h1>
             <h2>Lets Make Waves.</h2>
           </Col>
         </Row>

@@ -11,8 +11,8 @@ class About extends Component {
         <Row>
           <Col>
           </Col>
-          <Col>
-            <h1 className="h1 about-title">About</h1>
+          <Col xs={6}>
+            <h1 className="h1 font-weight-bolder	 about-title">About</h1>
             <div className="lead">
               <p>
                 Vega Digital Media Agency was started because founder Jesus Vega saw a problem in the marketplace. Although businesses were established and had regular business coming in, their story was lost in translation. The biggest differentiator in the world we live in now is a powerful story. With Vega Digital Media Agency, we enable businesses to tell their story in a more meaningful way with the distribution and production of a Fortune 500 Company at a fraction of the cost and with the ease and grace of a small business.
