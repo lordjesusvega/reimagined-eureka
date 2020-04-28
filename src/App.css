@@ -5,7 +5,6 @@
 
 //Header
 .video {
-  position: absolute;
   top: 0;
   left: 0;
 }
@@ -14,15 +13,26 @@
   flex: 50%;
 }
 
-.row {
-  display: flex;
-  height: 90vh;
+.row-header {
+  width: 100vw;
+  height: 85vh;
   background-color: #F9F9F3;
+}
+.container {
+  margin: 0;
 }
 
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
 }
 
 .title {
@@ -37,20 +47,36 @@ h1, h2 {
   overflow: hidden;
 }
 
-.card {
+.overlap {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  flex-grow: 1;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100%;
 }
 
-.waves-japanese {
-  z-index: 3;
-  display: block;
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  height: 80%;
+}
+
+.player-wrapper {
+  width: auto;
+  height: auto;
+}
+.react-player {
+  position: relative;
+}
+
+.react-player > div {
   position: absolute;
-  margin: 0 auto;
+}
+
+.waves-japanese {
+  position: absolute;
   color: white;
 }
 
@@ -98,10 +124,27 @@ a:hover, a:active {
   display: none;
 }
 
+/* About */
+.about {
+  width: 100vw;
+  height: 70vh;
+}
+
+
 @media only screen and (max-width: 600px) {
   .social-links {
     display: none;
     font-size: 0.7em;
+  }
+
+  .row {
+    display: grid;
+  }
+
+  .waves-japanese {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
   }
 
   .menuButton {
@@ -113,5 +156,9 @@ a:hover, a:active {
     margin: auto;
     font-size: 0.9em;
     padding: 2em;
+  }
+
+  .about-title {
+    padding: 1em;
   }
 }
